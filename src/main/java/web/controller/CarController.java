@@ -33,6 +33,10 @@ public class CarController {
 
         model.addAttribute("cars", cars);
         return "cars";
+
+        //http://localhost:8080/spring_mvc_war
+        //http://localhost:8080/spring_mvc_war/cars
+        //http://localhost:8080/spring_mvc_war/cars?count=2
     }
 }
 
